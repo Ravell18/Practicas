@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AnimalSpawn.Application.Repositories;
+using AnimalSpawn.Application.Services;
 using AnimalSpawn.Domain.Interfaces;
 using AnimalSpawn.Infraestructure.Data;
 using AnimalSpawn.Infraestructure.Repositories;
@@ -16,6 +18,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using AnimalSpawn.Infraestructure.Filters;
 
 
 namespace AnimalSpawn.Api
@@ -37,9 +40,14 @@ namespace AnimalSpawn.Api
             services.AddDbContext<AnimalSpawnContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("AnimalSpawnConnection"))
             );
-            services.AddTransient<IAnimalRepository, AnimalRepository>();
             services.AddMvc().AddFluentValidation(options =>
             options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
+            services.AddControllers(options =>
+            options.Filters.Add<GlobalExceptionFilter>());
+            services.AddTransient<IAnimalService, AnimalService>();
+            services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
 
         }
 

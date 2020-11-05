@@ -1,0 +1,8 @@
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.deps.json
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Application.dll
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\4A.MJCM\AnimalSpawn\AnimalSpawn.Application\obj\Debug\netcoreapp3.1\AnimalSpawn.Application.csproj.CopyComplete

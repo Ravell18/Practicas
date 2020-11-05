@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj": {}
+    "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj": {
+    "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
         "projectName": "AnimalSpawn.Api",
-        "projectPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
-        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Api\\obj\\",
+        "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Api\\AnimalSpawn.Api.csproj",
+        "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj"
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj"
+              },
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+              },
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj"
               }
             }
           }
@@ -48,13 +50,13 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[3.1.9, )"
             }
           },
           "imports": [
@@ -75,26 +77,87 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+    "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
-        "projectName": "AnimalSpawn.Domain",
-        "projectPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
-        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
+        "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj",
+        "projectName": "AnimalSpawn.Application",
+        "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj",
+        "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+              },
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "projectName": "AnimalSpawn.Domain",
+        "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj",
+        "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -131,26 +194,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
+    "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
         "projectName": "AnimalSpawn.Infraestructure",
-        "projectPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\AnimalSpawn.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -162,8 +221,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
-                "projectPath": "C:\\Users\\joela\\Downloads\\4A.MJCM-main\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
+              "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
+                "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\4A.MJCM\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
               }
             }
           }
@@ -179,7 +238,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.1.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -187,13 +246,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[3.1.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[3.1.9, )"
             }
           },
           "imports": [
@@ -214,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
